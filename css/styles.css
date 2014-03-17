@@ -1,6 +1,5 @@
 /* Your Website Styles */
-html {background: black;}
-div {border-radius: 1em 2em 1em 2em;}
+
 
 
 /* Gallery Styling */
@@ -45,7 +44,7 @@ div {border-radius: 1em 2em 1em 2em;}
 }
 
 
-/* Show Grid 
+/* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
-}*/
+}
