@@ -1,6 +1,22 @@
 /* Your Website Styles */
-html {background: #7AB2A9;}
-div {border-radius: 2em 2em 2em 2em;}
+html  {background: #68564A;}
+
+div   {border-radius: 2em 2em 2em 2em;}
+
+h1 {
+      font-family: 'Averia Sans Libre', cursive;
+      font-size: 2em;
+      background: #E65C90;
+      text-align: center;
+      border-radius: 2em 2em 2em 2em;
+      width: 100%;}
+
+p {color: #E65C90;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;}
+
+section {height: 6.25em;
+          width: 6.25em;}
 
 
 /* Gallery Styling */
@@ -13,7 +29,6 @@ div {border-radius: 2em 2em 2em 2em;}
   color: white;
   color: rgba(255, 255, 255, 0.8);
 }
-
 /*
 	Theme controls how everything looks in Gallery CSS.
 */
@@ -25,7 +40,7 @@ div {border-radius: 2em 2em 2em 2em;}
   height: 25em;
   overflow: hidden;
   text-align: center;
-  background: #68564A;
+  background: #7AB2A9;
 }
 .gallery .controls {
   position: absolute;
@@ -34,7 +49,7 @@ div {border-radius: 2em 2em 2em 2em;}
   text-align: center;
   background: #E65C90;}
 
-  .gallery .controls img {border-style: .125em 0 solid white;}
+  .gallery .controls img {display: center ;border-style: .125em .25em solid white;}
 }
 .gallery .control-button {
   display: inline-block;
@@ -46,7 +61,21 @@ div {border-radius: 2em 2em 2em 2em;}
 }
 
 
+@media screen and (max-width: 490px) {.controls, section   {display: none;}
+
+}
+
+@media screen and (max-width: 680px) { .controls, section  {display: none;}
+  
+}
+
+@media screen and (max-width: 1024px) {
+  
+}
+
 /* Show Grid 
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }*/
+
+
