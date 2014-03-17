@@ -60,22 +60,21 @@ section {
   transition: color .1s;
 }
 
-
-
-#logo { min-width: 680px;
-        max-width: 1024px;
+#logo { 
         position: relative;
         float: left;
-        display: block;
+        display: inline-block;
         width: 100%;}
 
 #logo { background-color: #7AB2A9;
-        background-image: url("../img/logo.png") repeat-y;
+        background-image: url("../img/logo.png") repeat-x;
         width: 100%;
         height: 100%;}
 
-#logo img {background-color: #7AB2A9;
-        background-image: url("../img/logo.png") repeat-y;}
+#logo img { height: 100px;
+            width: 50px;
+            background-color: #7AB2A9;
+            background-image: url("../img/logo.png") repeat-x;}
 
 @media screen and (max-width: 490px) {.controls, .logo   {display: none;}
 
