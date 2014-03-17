@@ -1,12 +1,12 @@
 /* Your Website Styles */
-html  {background: #68564A;}
 
-h1 {
+h1 {  padding: .5em;
+      margin: .5em;
       font-family: 'Averia Sans Libre', cursive;
       font-size: 2em;
       background: #E65C90;
       text-align: center;
-      width: 100%;}
+}
 
 p {color: #E65C90;
   font-family: 'Open Sans', sans-serif;
@@ -16,8 +16,6 @@ section {
           height: 6.25em;
           width: 100%;
           position: relative;}
-
-img {transition: 100 1s;}
 
 
 /* Gallery Styling */
@@ -35,14 +33,15 @@ img {transition: 100 1s;}
 */
 .gallery {
   position: relative;
+  height: 100%;
 }
 .gallery .item {
   width:100%;
-  height: 25em;
+  height: 26em;
   overflow: hidden;
   text-align: center;
-  background: #7AB2A9;
-}
+  background: #68564A;}
+
 .gallery .controls {
   position: absolute;
   bottom: -7.5em;
@@ -50,8 +49,8 @@ img {transition: 100 1s;}
   text-align: center;
   background: #E65C90;}
 
-  .gallery .controls img {display: center ;border-style: .125em .25em solid white;}
-}
+.gallery .controls img {display: center ;border-style: .125em .25em solid white;}
+
 .gallery .control-button {
   display: inline-block;
   margin: 0 .02em;
@@ -62,11 +61,27 @@ img {transition: 100 1s;}
 }
 
 
-@media screen and (max-width: 490px) {.controls, section   {display: none;}
+
+#logo { min-width: 680px;
+        max-width: 1024px;
+        position: relative;
+        float: left;
+        display: block;
+        width: 100%;}
+
+#logo { background-color: #7AB2A9;
+        background-image: url("../img/logo.png") repeat-y;
+        width: 100%;
+        height: 100%;}
+
+#logo img {background-color: #7AB2A9;
+        background-image: url("../img/logo.png") repeat-y;}
+
+@media screen and (max-width: 490px) {.controls, .logo   {display: none;}
 
 }
 
-@media screen and (max-width: 680px) { .controls, .logo, section {display: none;}
+@media screen and (max-width: 680px) { .controls, .logo   {display: none;}
   
 }
 
