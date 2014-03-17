@@ -20,19 +20,19 @@
   position: relative;
 }
 .gallery .item {
-  height: 400px;
+  height: 25em;
   overflow: hidden;
   text-align: center;
   background: #4d87e2;
 }
 .gallery .controls {
   position: absolute;
-  bottom: -120px;
+  bottom: -7.5em;
   width: 100%;
   text-align: center;
   background: red;}
 
-  .gallery .controls img {border-style: 2px solid #000;}
+  .gallery .controls img {border-style: .125em 0 solid #000;}
 }
 .gallery .control-button {
   display: inline-block;
