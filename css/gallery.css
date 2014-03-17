@@ -340,7 +340,7 @@
   animation-delay: 5s;
 }
 
-@keyframes controlAnimation-3 {
+@keyframes controlAnimation-6 {
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
@@ -359,7 +359,7 @@
   }
 }
 
-@keyframes galleryAnimation-3 {
+@keyframes galleryAnimation-6 {
   0% {
     opacity: 0;
   }
@@ -398,7 +398,7 @@
   animation-delay: 5s;
 }
 
-@keyframes controlAnimation-3 {
+@keyframes controlAnimation-7 {
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
@@ -417,7 +417,7 @@
   }
 }
 
-@keyframes galleryAnimation-3 {
+@keyframes galleryAnimation-7 {
   0% {
     opacity: 0;
   }
@@ -456,7 +456,7 @@
   animation-delay: 5s;
 }
 
-@keyframes controlAnimation-3 {
+@keyframes controlAnimation-8 {
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
@@ -475,7 +475,7 @@
   }
 }
 
-@keyframes galleryAnimation-3 {
+@keyframes galleryAnimation-8 {
   0% {
     opacity: 0;
   }
@@ -514,7 +514,7 @@
   animation-delay: 5s;
 }
 
-@keyframes controlAnimation-3 {
+@keyframes controlAnimation-9 {
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
@@ -533,7 +533,7 @@
   }
 }
 
-@keyframes galleryAnimation-3 {
+@keyframes galleryAnimation-9 {
   0% {
     opacity: 0;
   }
@@ -571,7 +571,7 @@
   animation-delay: 5s;
 }
 
-@keyframes controlAnimation-3 {
+@keyframes controlAnimation-10 {
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
@@ -590,7 +590,7 @@
   }
 }
 
-@keyframes galleryAnimation-3 {
+@keyframes galleryAnimation-10 {
   0% {
     opacity: 0;
   }
