@@ -61,11 +61,11 @@ section {
 }
 
 
-#logo { 
+#logo h1{ 
         background-color: #7AB2A9;
         background: url("../img/logo.png") repeat-y;
         display: inline-block;
-        height: 3em;}
+        height: 2em;}
 
 
 
