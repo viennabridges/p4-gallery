@@ -61,33 +61,18 @@ section {
 }
 
 
-#logo h1{ 
-        background-color: #7AB2A9;
-        background: url("../img/logo.png") repeat-y;
-        display: inline-block;
-        height: 2em;}
-
-
-
 @media screen and (max-width: 480px) {
-
- .logo {
-  display: none;
-} 
 
   h1 {
     font-size: 1em;
   }
 
 
-
 }
 
 @media screen and (max-width: 680px) {
 
-  .logo {
-    display: none;
-  }
+
    h1 {
     font-size: 1.5em;
   }
